@@ -31,9 +31,12 @@ public static void main(String[] args){
 	   amount = amount%1000; //amount =745(2754%1000=resinder =.754)
 	                      //How the amount variables isupdated to 754 no longer 2754
 		count500 = amount/500;
-        amount = amount%500;
+                amount = amount%500;
+
+	        count200 = amount/200;
+	        amount = amount%200;
      
-	    count100 = amount/100;
+	        count100 = amount/100;
 		amount =amount%100;
 		
 		count50 = amount/50;
